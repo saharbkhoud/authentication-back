@@ -1,0 +1,12 @@
+parameters:
+  hash: $2y$13$ZOKLCRV9Gm7U6d/XKAtmNuVk8gDrDJXhuSVPOmjoHriuNP573R6k2 #admin
+  username: 'user@gmail.com'
+App\Entity\User:
+  user_1:
+    email: <{username}>
+    password: <{hash}>
+    roles: ['ROLE_USER']
+  user_2:
+    email: <email()>
+    password: <{hash}>
+    roles: ['ROLE_USER']
