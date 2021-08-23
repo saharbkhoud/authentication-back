@@ -4,6 +4,12 @@
  PHP >= 7.4.0 \
  MySQL \
  Composer 
+ 
+*Clone du projet
+===========
+
+git clone https://github.com/saharbkhoud/authentication-back.git
+ 
 
 *Installation:
 =======
