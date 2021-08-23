@@ -23,3 +23,5 @@ $ openssl rsa -pubout -in config/jwt/private.pem -out config/jwt/public.pem
 
 *run serve
 symfony server:start
+
+login check : https://127.0.0.1:8000/api/login_check
